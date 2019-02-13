@@ -18,6 +18,7 @@ dvec=np.array([-1,1])
 d=np.matmul(PS,dvec)
 ##Unit direction vector:
 unit_d=d/(np.linalg.norm(d))
+print(unit_d)
 ##Let A be the point (1,-1)
 A=np.array([1,-1])
 #Let AB be the line parallel to PS where B is a point on the line

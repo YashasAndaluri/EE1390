@@ -1,0 +1,150 @@
+\documentclass{beamer}  
+\usetheme{Warsaw}
+\title{Introduction to AI and ML}
+\subtitle{Matrix Project}
+\author{Manideep, EE17BTECH11046 \\ Yashas, ES17BTECH11025}
+\begin{document}
+
+\begin{frame}
+
+\titlepage
+ 
+\end{frame}  
+
+\begin{frame}[t]{Question}
+Q16 of JEE Main 2014 (Code G):
+Let PS be the median of the triangle with vertices $P(2,2) $,$ Q(6,-1)$ and $R(7,3)$.The equation of the line passing through (1,-1) and parallel to PS is:
+
+\vspace{1.5em}
+
+Given points in matrix form are:
+\vspace{1.5em}
+
+\[P=
+\begin{bmatrix}
+2 & 2
+\end{bmatrix}
+ Q=
+\begin{bmatrix}
+6 & -1
+\end{bmatrix}
+ R=
+\begin{bmatrix}
+7 & 3
+\end{bmatrix}
+\]
+
+\vspace{1.5em}
+
+The required line passes through the given point:
+\[A=
+\begin{bmatrix}
+1 & -1 
+\end{bmatrix}
+\]
+
+\end{frame}
+\begin{frame}{Solution}
+Midpont S of the side QR of the triangle:
+\[S=
+(Q+R)/2
+\]
+\[
+S=
+\begin{bmatrix}
+6.5 & 1
+\end{bmatrix}
+\]
+Then,PS is a median.It's direction vector is:
+\[S
+-
+P
+\]
+Writing this in matrix form:
+Writing PS as:
+\[
+PS=
+\begin{bmatrix}
+2 & 6.5\\
+2 & 1
+\end{bmatrix}
+\]
+Then:
+\[
+S-P=
+\begin{bmatrix}
+2 & 6.5\\
+2 & 1
+\end{bmatrix}
+\begin{bmatrix}
+-1 \\
+ 1
+\end{bmatrix}
+\]
+\end{frame}
+
+\begin{frame}
+The direction vector of PS is:
+\[d = 
+\begin{bmatrix}
+4.5\\
+-1
+\end{bmatrix}
+\]
+The unit direction vector is:
+\[unit_d =
+d/||d|| 
+\]
+Norm of direction vector,d is:
+\[
+||d||=sqrt((4.5)^2 + (-1)^2)
+\]
+Then,value of unit vector is:
+\[unit_d = 
+\begin{bmatrix}
+0.9761\\
+-0.2169
+\end{bmatrix}
+\]
+\end{frame}
+   
+\begin{frame}
+Consider a point X on the required line:
+\[
+X=
+\begin{bmatrix}
+x\\
+y
+\end{bmatrix}
+\]
+Since,the line is parallel to PS and is passing through A,
+all points on the required line are of the form:
+\[
+X=c*unit_d + A
+\]
+where c is the parameter
+\[
+\begin{bmatrix}
+x\\
+y
+\end{bmatrix}
+=c
+\begin{bmatrix}
+0.9761\\
+-0.2169
+\end{bmatrix}
++
+\begin{bmatrix}
+-1\\
+1
+\end{bmatrix}
+\]
+This gives equation of the required line in matrix form.\\
+The equation in algebraic form is: 2x+9y+7
+\end{frame}
+
+\begin{frame}
+ \includegraphics[scale=0.22]{Fig_triangle.png}
+\end{frame}
+
+\end{document}

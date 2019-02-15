@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.13)  14 FEB 2019 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.13)  15 FEB 2019 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Q16_MAIN14_G.tex
-(./Q16_MAIN14_G.tex
+**Q71_MAIN13_P.tex
+(./Q71_MAIN13_P.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -648,8 +648,8 @@ Package: amsthm 2017/10/31 v2.20.4
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 5.
 
-(./Q16_MAIN14_G.aux)
-\openout1 = `Q16_MAIN14_G.aux'.
+(./Q71_MAIN13_P.aux)
+\openout1 = `Q71_MAIN13_P.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -746,9 +746,9 @@ LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
 
-(./Q16_MAIN14_G.out) (./Q16_MAIN14_G.out)
+(./Q71_MAIN13_P.out) (./Q71_MAIN13_P.out)
 \@outlinefile=\write5
-\openout5 = `Q16_MAIN14_G.out'.
+\openout5 = `Q71_MAIN13_P.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 6.
@@ -816,72 +816,106 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./Q16_MAIN14_G.nav) [1
+) (./Q71_MAIN13_P.nav) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
-
-] [3
-
-] [4
-
-] [5
+) [3
 
 ]
-<Fig_triangle.png, id=165, 1339.1631pt x 716.1957pt>
-File: Fig_triangle.png Graphic file (type png)
-<use Fig_triangle.png>
-Package pdftex.def Info: Fig_triangle.png  used on input line 160.
-(pdftex.def)             Requested size: 294.61679pt x 157.56354pt.
+<Fig_Circle1.png, id=110, 618.6312pt x 611.4042pt>
+File: Fig_Circle1.png Graphic file (type png)
+<use Fig_Circle1.png>
+Package pdftex.def Info: Fig_Circle1.png  used on input line 69.
+(pdftex.def)             Requested size: 241.2652pt x 238.44667pt.
 
-[6
+Overfull \vbox (8.69176pt too high) detected at line 69
+ []
 
- <./Fig_triangle.png>]
+[4
+
+ <./Fig_Circle1.png>]
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 115.
+
+
+Overfull \hbox (7.27281pt too wide) detected at line 115
+ [] [] \OT1/cmss/m/n/10.95 = 3 (1)
+ []
+
+[5
+
+] [6
+
+] [7
+
+] [8
+
+]
+<Fig_Circle2.png, id=249, 604.1772pt x 602.7318pt>
+File: Fig_Circle2.png Graphic file (type png)
+<use Fig_Circle2.png>
+Package pdftex.def Info: Fig_Circle2.png  used on input line 289.
+(pdftex.def)             Requested size: 235.62816pt x 235.06445pt.
+
+Overfull \vbox (5.30954pt too high) detected at line 289
+ []
+
+[9
+
+ <./Fig_Circle2.png>]
 \tf@nav=\write6
-\openout6 = `Q16_MAIN14_G.nav'.
+\openout6 = `Q71_MAIN13_P.nav'.
 
 \tf@toc=\write7
-\openout7 = `Q16_MAIN14_G.toc'.
+\openout7 = `Q71_MAIN13_P.toc'.
 
 \tf@snm=\write8
-\openout8 = `Q16_MAIN14_G.snm'.
+\openout8 = `Q71_MAIN13_P.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
- (./Q16_MAIN14_G.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
-Package rerunfilecheck Info: File `Q16_MAIN14_G.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+ (./Q71_MAIN13_P.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package rerunfilecheck Info: File `Q71_MAIN13_P.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 16860 strings out of 494880
- 321680 string characters out of 6179601
- 388905 words of memory out of 5000000
- 19792 multiletter control sequences out of 15000+600000
- 10258 words of font info for 38 fonts, out of 8000000 for 9000
+ 16897 strings out of 494880
+ 322124 string characters out of 6179601
+ 391905 words of memory out of 5000000
+ 19815 multiletter control sequences out of 15000+600000
+ 12981 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,15n,52p,796b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Q16_MAIN14_G.pdf (6 pages, 152102 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on Q71_MAIN13_P.pdf (9 pages, 154675 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 13 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
